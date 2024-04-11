@@ -4,11 +4,14 @@ import Servece from './components/Servece'
 import About from './components/About'; 
 export default function Home() {
   return (
-    <div class="overflow-x-hidden">
-    <Header />
+    <>
+      <div className="overflow-x-hidden">
+      <Header />
     <About />
     <Servece />
     <Footer />
-    </div>
+      </div>
+  
+    </>
   );
 }
