@@ -53,7 +53,7 @@ function About () {
         </div>
       </div>
 
-      <div class=" lg:flex  grid lg:p-20 sm:p-5 " style={{}}>
+      <div class=" lg:flex  grid lg:p-20 sm:p-10 " style={{}}>
         <div
           class=" bg-orange-400 m-10 flex "
           style={{
@@ -67,7 +67,7 @@ function About () {
             marginTop: "80px",
           }}
         >
-          <div class="grid my-10 justify-center lg:px-10 sm:px-5" >
+          <div class="grid my-10 justify-center px-10 " >
             <div class="flex py-5">
               <Image
                 src="/marcel.jpg"
@@ -102,7 +102,8 @@ function About () {
                 height={50}
                 class="rounded-full"
               />
-              <h2 class="text-center text-2xl my-4 mx-1 text-orange-400"> Mohamed Ali</h2>
+              <h2 class="text-center 
+              text-2xl my-4 mx-1 text-orange-400"> Mohamed Ali</h2>
             </div>
 
             <div>
