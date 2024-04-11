@@ -53,7 +53,7 @@ function About () {
         </div>
       </div>
 
-      <div class=" lg:flex  grid p-20 " style={{}}>
+      <div class=" lg:flex  grid lg:p-20  sm:p-10" style={{}}>
         <div
           class=" bg-orange-400 m-10 flex "
           style={{
