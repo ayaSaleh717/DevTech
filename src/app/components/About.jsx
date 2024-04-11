@@ -4,11 +4,16 @@ import Image from "next/image";
 function About () {
   return (
     <>
-    <section id="author" class="py-20 flex sm:grid lg:flex">
+    <section id="author" class="py-20 lg:flex sm:grid ">
       {/* <div class="container px-5 mx-auto my-32 text-center flex"> */}
 
       <div
-        class=" flex rounded-tr-sm lg:w-[80%] sm:w-[80%] flex-col  space-y-5 md:flex-row md:space-x-5 md:space-y-0 bg-orange-400"
+        class=" flex rounded-tr-sm
+        lg:w-[50%]
+        sm:w-[100%]
+          flex-col  space-y-5 md:flex-row
+           md:space-x-5
+            md:space-y-0 bg-orange-400"
         style={{
           // height: "500px",
           // width: "800px",
@@ -20,7 +25,9 @@ function About () {
         }}
       >
         <div
-          class=" my-10 sm:w-[100%] 
+          class=" my-10  
+          lg:w-[90%]
+          sm:w-[100%]
          bg-gradient-to-tr from-[#ff8d80] to-[#fcdd89]
                "
           style={{
@@ -46,7 +53,7 @@ function About () {
         </div>
       </div>
 
-      <div class=" lg:flex grid p-20 " style={{}}>
+      <div class=" lg:flex  grid p-20 " style={{}}>
         <div
           class=" bg-orange-400 m-10 flex "
           style={{
