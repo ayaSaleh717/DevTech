@@ -237,7 +237,7 @@ function Header() {
         alt="My Image"
         width={2800}
         height={300}
-        class=" absolute inset-x-0 -bottom-4 w-full "
+        class=" absolute inset-x-0 -bottom-4 w-full hidden lg:block "
       />
     </>
   );
