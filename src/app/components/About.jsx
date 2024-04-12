@@ -13,7 +13,7 @@ function About () {
         sm:w-[100%]
           flex-col  space-y-5 md:flex-row
            md:space-x-5
-            md:space-y-0 bg-orange-400"
+            md:space-y-0 bg-orange-400  shadow-2xl"
         style={{
           // height: "500px",
           // width: "800px",
@@ -28,6 +28,7 @@ function About () {
           class=" my-10  
           lg:w-[90%]
           sm:w-[100%]
+          shadow-2xl
          bg-gradient-to-tr from-[#ff8d80] to-[#fcdd89]
                "
           style={{
@@ -55,7 +56,7 @@ function About () {
 
       <div class=" lg:flex  grid lg:p-20 sm:p-10 " style={{}}>
         <div
-          class=" bg-orange-400 m-10 flex "
+          class=" bg-orange-400 m-10 flex  shadow-2xl"
           style={{
             justifyContent: "center",
             alignItems: "start",
@@ -85,7 +86,7 @@ function About () {
           </div>
         </div>
         <div
-          class=" bg-[#0e385e]"
+          class=" bg-[#0e385e]  shadow-2xl"
           style={{
             width: "300px",
             height: "300px",

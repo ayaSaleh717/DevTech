@@ -14,7 +14,30 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                   <h3 class="text-orange-500 font-bold text-2xl">LOGO</h3>
+                <div class="flex lg:flex-1">
+              <a href="#">
+                {/* <Image src="/logo.png" alt="Your Company" width={100} height={100} /> */}
+                <span class="sr-only">Your Company</span>
+                <h1
+                  class="-m-1.5 font-bold
+               p-1.5 text-orange-400 text-2xl	"
+                >
+                  {" "}
+                  Dev
+                  <span
+                    class="text-[#6ea9e0] 
+              text-3xl font-bold italic"
+                  >
+                    Tech
+                  </span>
+                </h1>
+
+                <span class="text-[#7493b0] font-bold text-sm">
+                  {" "}
+                  Development Tech
+                </span>
+              </a>
+            </div>
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-gray-400">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

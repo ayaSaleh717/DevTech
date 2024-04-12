@@ -6,16 +6,34 @@ function Header() {
   const [show, setShow] = useState(false);
   return (
     <>
-      <div class="" style={{ background: "#0e385e" }}>
+      <div class=" shadow-xl" style={{ background: "#0e385e" }}>
         <header class="absolute inset-x-0 top-0 z-50">
           <nav
             class="flex items-center justify-between p-6 lg:px-8"
             aria-label="Global"
           >
             <div class="flex lg:flex-1">
-              <a href="#" class="-m-1.5 p-1.5 text-orange-400 text-20px	">
+              <a href="#">
+                {/* <Image src="/logo.png" alt="Your Company" width={100} height={100} /> */}
                 <span class="sr-only">Your Company</span>
-                LOGO
+                <h1
+                  class="-m-1.5 font-bold
+               p-1.5 text-orange-400 text-2xl	"
+                >
+                  {" "}
+                  Dev
+                  <span
+                    class="text-[#0e385e] 
+              text-3xl font-bold italic"
+                  >
+                    Tech
+                  </span>
+                </h1>
+
+                <span class="text-[#0e385e] font-bold text-sm">
+                  {" "}
+                  Development Tech
+                </span>
               </a>
             </div>
 
@@ -85,10 +103,30 @@ function Header() {
               <div class="fixed inset-0 z-50"></div>
               <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
-                  <a href="#" class="-m-1.5 p-1.5 text-orange-400">
-                    <span class="sr-only">Your Company</span>
-                    LOGO
-                  </a>
+                <div class="flex lg:flex-1">
+              <a href="#">
+                {/* <Image src="/logo.png" alt="Your Company" width={100} height={100} /> */}
+                <span class="sr-only">Your Company</span>
+                <h1
+                  class="-m-1.5 font-bold
+               p-1.5 text-orange-400 text-2xl	"
+                >
+                  {" "}
+                  Dev
+                  <span
+                    class="text-[#0e385e] 
+              text-3xl font-bold italic"
+                  >
+                    Tech
+                  </span>
+                </h1>
+
+                <span class="text-[#0e385e] font-bold text-sm">
+                  {" "}
+                  Development Tech
+                </span>
+              </a>
+            </div>
                   <button
                     onClick={() => setShow(!show)}
                     type="button"
@@ -159,9 +197,11 @@ function Header() {
             class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true"
           >
-            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2
+            <div
+              class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2
              rotate-[30deg] bg-gradient-to-tr from-[#ff8d80] to-[#fcdd89]
-              opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
+              opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            ></div>
           </div>
           <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="text-center">
@@ -190,13 +230,15 @@ function Header() {
             </div>
           </div>
         </div>
-     
       </div>
-          
-      <Image src='s1.svg' alt="My Image" width={2800} 
-         height={300} class=" absolute inset-x-0 -bottom-4 w-full "/>
- 
-     
+
+      <Image
+        src="s1.svg"
+        alt="My Image"
+        width={2800}
+        height={300}
+        class=" absolute inset-x-0 -bottom-4 w-full "
+      />
     </>
   );
 }
