@@ -60,7 +60,9 @@ function Servece() {
           <button class="
            py-3 bg-orange-400 px-4 rounded-full absolute
             lg:mt-[14%] lg:ml-[3.3%] 
-            sm:mt-[20%] sm:ml-[70%] text-white " >Use Serve</button>
+            sm:mt-[20%] sm:ml-[70%] 
+            mt-[50%] ml-[19%]
+             text-white " >Use Serve</button>
         </div>
 
         <div class="flex gap-4 items-start flex-col shadow-xl p-10 justify-center">
@@ -97,7 +99,7 @@ function Servece() {
           <button class=" 
           py-3 bg-orange-400 px-4 rounded-full absolute 
           lg:mt-[14%] lg:ml-[3.3%] 
-          sm:mt-[20%] sm:ml-[70%] text-white" >Use Serve</button>
+          sm:mt-[20%] sm:ml-[70%] text-white mt-[50%] ml-[19%]" >Use Serve</button>
 
         </div>
 
@@ -140,7 +142,7 @@ function Servece() {
           <button class=" 
           py-3 bg-orange-400 px-4 rounded-full absolute
            lg:mt-[14%] lg:ml-[3.3%]
-           sm:mt-[20%] sm:ml-[70%] text-white" >Use Serve</button>
+           sm:mt-[20%] sm:ml-[70%] text-white mt-[50%] ml-[19%]" >Use Serve</button>
 
         </div>
         
